@@ -11,4 +11,4 @@ Rosalind Picard spoluzakladatelka úspěšné firmy Empatica a Affectiva. Za svo
 
 
 ![alt text](https://web.media.mit.edu/~picard/img/Picard-credit-A-Ryan.png)
-[title](https://www.example.com)
+[Odkaz obrázku](https://web.media.mit.edu/~picard/img/Picard-credit-A-Ryan.png)
