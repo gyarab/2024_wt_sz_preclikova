@@ -13,3 +13,11 @@ Rosalind Picard spoluzakladatelka úspěšné firmy Empatica a Affectiva. Za svo
 ![alt text](https://web.media.mit.edu/~picard/img/Picard-credit-A-Ryan.png)
 
 [Odkaz obrázku](https://web.media.mit.edu/~picard/img/Picard-credit-A-Ryan.png)
+
+
+## Některé její patenty: 
+- Metody a systémy pro neinvazivní předpovídání, detekci a monitorování virových infekcí
+- Metody a přístroje pro hodnocení deprese
+- Metody a přístroje pro hodnocení atypické mozkové aktivity
+- Metody a přístroje pro monitorování pacientů a podávání terapeutických podnětů
+- Systém a metoda pro stanovení úrovně vytížení řidiče
