@@ -6,7 +6,7 @@ Rosalind Picard, Sc.D., narozená roku 1962, je vědkyně, inženýrka, autorka 
 Rosalind vlastní několik stovek patentů a je členkou Národní akademie inženýrství a Národní akademie vynálezců. Její práce a technologie se používají všude možně, včetně zdravotnictví a zákaznických služeb. 
 
 
-Rosalind Picard spoluzakladatelka úspěšné firmy Empatica a Affectiva. Za svoji práci obdržela řadu ocenění a mezinárodní uznání. 
+Rosalind Picard je spoluzakladatelka úspěšné firmy Empatica a Affectiva. Za svoji práci obdržela řadu ocenění a mezinárodní uznání. 
 
 
 
