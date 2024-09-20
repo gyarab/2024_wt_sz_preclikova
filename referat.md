@@ -1,4 +1,4 @@
-## Rosalind Picard
+# Rosalind Picard
 
 Rosalind Picard, Sc.D., narozená roku 1962, je vědkyně, inženýrka, autorka a profesorka na MIT Media Lab. Je známá pro její objev v oblasti afektivní výpočetní techniky. Proslavila se knihou Affective Computing, ve které navrhla, jak počítačům poskytnout emoční inteligenci. Kniha vedla k vytvoření oboru, který je zaměřen na vzájemné působení mezi lidmi a technologiemi s přihlédnutím na emoce. Picard s jejím týmem vytvořila technologii pro sledování fyziologických dat. 
 
