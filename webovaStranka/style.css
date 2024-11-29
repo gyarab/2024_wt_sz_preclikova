@@ -1,0 +1,29 @@
+       body{
+            background-color: #e08cc75e 
+        }
+        .superfont {
+            font-size: 50px; 
+            font-weight: 200;
+            font-style: normal;
+            font-family: "Tangerine", cursive;
+
+        }
+        h1 {
+            background-color: #b6e0db8a;
+            color: rgb(50, 10, 83);
+            border: 2px solid rgb(176, 145, 226, 0.671);
+        }
+
+        main .text {
+            border: 5px solid #7cd1c68a;
+            border-top: 10px dashed rgb(139, 124, 192);
+            border-left: 7px dashed rgba(176, 145, 226, 0.671);
+            border-right: 7px dashed rgba(176, 145, 226, 0.671);
+        }
+        
+
+        main ul li {
+            background-color: rgba(176, 145, 226, 0.671);
+            border: 1px solid rgba(119, 183, 192, 0.733);
+        
+        }
