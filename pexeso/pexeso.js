@@ -23,19 +23,18 @@ let kartyPrincezny = [
     "https://static.wikia.nocookie.net/disney/images/1/18/Jasmineamazon.jpg/revision/latest?cb=20210213234022",
     "https://static.wikia.nocookie.net/disney/images/8/8f/Pocahontasamazon.jpg/revision/latest?cb=20210213234035",
     "https://static.wikia.nocookie.net/disney/images/a/a7/Rapunzelamazon.jpg/revision/latest?cb=20210213234039",
-    "https://static.wikia.nocookie.net/disney/images/5/53/Tianaamazon.jpg/revision/latest?cb=20210213234043",
+    "https://static.wikia.nocookie.net/disney/images/5/53/Tianaamazon.jpg/revision/latest?cb=20210213234043"
 
 ]
 let kartyDopravniZnacky = [
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-
+    "https://www.happyend.cz/CMSPages/GetFile.aspx?guid=e52961c6-b076-4805-9926-4104fab9a607",
+    "https://www.happyend.cz/CMSPages/GetFile.aspx?guid=1da0d90e-cfb2-4b15-af14-372a9bad3d59",
+    "https://www.happyend.cz/CMSPages/GetFile.aspx?guid=19f13a78-e11d-4648-bc71-40d6b1cfd2df",
+    "https://www.happyend.cz/CMSPages/GetFile.aspx?guid=93b61b76-a538-496f-885f-8b945d9c6958",
+    "https://www.happyend.cz/CMSPages/GetFile.aspx?guid=ff93c83e-c69f-41eb-8c4b-e4ef39b06aee",
+    "https://www.happyend.cz/CMSPages/GetFile.aspx?guid=8a55bbbf-bc80-4cf3-9d9b-8d0302b1175a",
+    "https://www.happyend.cz/CMSPages/GetFile.aspx?guid=b7e928cb-48a8-4fdc-bfd1-b3ab648dec85",
+    "https://www.happyend.cz/CMSPages/GetFile.aspx?guid=32e49dfc-36ed-4ea1-b9b5-29d616040ac7"
 ]
 let karty = kartyKocky
 
@@ -105,6 +104,8 @@ function novaHra() {
         case "princezny": karty = kartyPrincezny
             break
         case "kocky": karty = kartyKocky
+            break
+        case "znacky": karty = kartyDopravniZnacky
             break
 
     }
