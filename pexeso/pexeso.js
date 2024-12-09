@@ -4,34 +4,40 @@ let prazdneMisto = "prazdno.svg"
 let sirkaKarty = 100
 let vyskaKarty = 100
 
-let karty = [
-    {
-        src: "https://placecats.com/neo_banana/100/100"
-    },
-    {
-        src: "https://placecats.com/neo_2/100/100"
-    },
-    {
-        src: "https://placecats.com/millie_neo/100/100"
-    },
-    {
-        src: "https://placecats.com/millie_neo/100/100"
-    },
-    {
-        src: "https://placecats.com/millie_neo/100/100"
-    },
-    {
-        src: "https://placecats.com/millie_neo/100/100"
-    },
-    {
-        src: "https://placecats.com/millie_neo/100/100"
-    },
-    {
-        src: "https://placecats.com/millie_neo/100/100"
-    }
-
+let kartyKocky = [
+    "https://placecats.com/neo_banana/100/100",
+    "https://placecats.com/neo_2/100/100",
+    "https://placecats.com/millie_neo/100/100",
+    "https://placecats.com/bella/100/100",
+    "https://placecats.com/millie/100/100",
+    "https://placecats.com/neo/100/100",
+    "https://placecats.com/poppy/100/100",
+    "https://placecats.com/louie/100/100"
 ]
 
+let kartyPrincezny = [
+    "https://static.wikia.nocookie.net/disney/images/3/39/Snowwhiteamazon.jpg/revision/latest?cb=20210213234058",
+    "https://static.wikia.nocookie.net/disney/images/2/2e/Cinderellaamazon.jpg/revision/latest?cb=20210213233836",
+    "https://static.wikia.nocookie.net/disney/images/5/57/Auroraamazon.jpg/revision/latest?cb=20210213233826",
+    "https://static.wikia.nocookie.net/disney/images/5/5a/Belleamazon.jpg/revision/latest?cb=20210213233832",
+    "https://static.wikia.nocookie.net/disney/images/1/18/Jasmineamazon.jpg/revision/latest?cb=20210213234022",
+    "https://static.wikia.nocookie.net/disney/images/8/8f/Pocahontasamazon.jpg/revision/latest?cb=20210213234035",
+    "https://static.wikia.nocookie.net/disney/images/a/a7/Rapunzelamazon.jpg/revision/latest?cb=20210213234039",
+    "https://static.wikia.nocookie.net/disney/images/5/53/Tianaamazon.jpg/revision/latest?cb=20210213234043",
+
+]
+let kartyDopravniZnacky = [
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+
+]
+let karty = kartyKocky
 
 function zamichejPole(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -65,7 +71,7 @@ function otocKartu(karta) {
     }
 
     if (!otocene.includes(karta) && !nalezene.includes(karta)) {
-        karta.el.src = karty[karta.karta].src
+        karta.el.src = karty[karta.karta]
         otocene.push(karta)
         kontrolaBodu()
     }
@@ -76,10 +82,10 @@ function kontrolaBodu() {
         otocene.forEach((karta) => {
             setInterval(() => { karta.el.src = prazdneMisto }, 2000)
 
-    })
-    otocene = []
-    score.innerHTML = parseInt(score.innerHTML) + 1
-}
+        })
+        otocene = []
+        score.innerHTML = parseInt(score.innerHTML) + 1
+    }
 }
 
 let otocene = []
@@ -91,8 +97,17 @@ function novaHra() {
     nalezene = []
     pole = []
 
-    pocetDvojic = document.getElementById('pocetDvojic').value
-    pocetKaretNaRadek = document.getElementById('pocetKaretNaRadek').value
+    let pocetDvojic = document.getElementById('pocetDvojic').value
+    let pocetKaretNaRadek = document.getElementById('pocetKaretNaRadek').value
+    let druhKaret = document.getElementById('druhKaret').value
+
+    switch (druhKaret) {
+        case "princezny": karty = kartyPrincezny
+            break
+        case "kocky": karty = kartyKocky
+            break
+
+    }
 
     for (let i = 0; i < pocetDvojic; i++) {
         pole.push(zalozKartu(i));

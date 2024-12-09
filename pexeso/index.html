@@ -15,11 +15,20 @@
         pexeso loading...
     </div>
 
-    <label for="pocetDvojic">počet dvojic (1-5):</label>
-    <input type="number" id="pocetDvojic" name="pocetDvojic" min="1" max="5" value="4">
-    <label for="pocetDvojic">počet karet na řádek (1-5):</label>
-    <input type="number" id="pocetKaretNaRadek" name="pocetKaretNaRadek" min="1" value="4">
+    <label for="druhKaret">druh karet:</label>
+    <select id="druhKaret" name="druhKaret">
+        <option value="princezny">princezny</option>
+        <option value="kocky">kočky</option>
+
+    </select>
+    <label for="pocetDvojic">počet dvojic (1-8):</label>
+    <input type="number" id="pocetDvojic" name="pocetDvojic" min="1" max="8" value="8">
+    
+    <label for="pocetDvojic">počet karet na řádek (1-16):</label>
+    <input type="number" id="pocetKaretNaRadek" name="pocetKaretNaRadek" min="1" max="16" value="4">
+
     <button class="btn btn-outline-secondary" onclick="novaHra()">Reset Hry</button>
+
     <script src="./pexeso.js"></script>
 </body>
 
